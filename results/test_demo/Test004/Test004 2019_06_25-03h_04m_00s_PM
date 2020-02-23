@@ -1,0 +1,170 @@
+INFO: creating /opt/ltp/results directory
+INFO: no command files were provided. Executing following runtest scenario files:
+syscalls fs fs_perms_simple fsx dio io mm ipc sched math nptl pty containers fs_bind controllers filecaps cap_bounds fcntl-locktests connectors timers power_management_tests hugetlb commands hyperthreading kernel_misc fs_ext4 can cpuhotplug net.ipv6_lib input cve 
+
+Checking for required user/group ids
+
+'nobody' user id and group found.
+'bin' user id and group found.
+'daemon' user id and group found.
+Users group found.
+Sys group found.
+Required users/groups exist.
+If some fields are empty or look unusual you may have an old version.
+Compare to the current minimal requirements in Documentation/Changes.
+
+/etc/lsb-release
+/etc/os-release
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.5 LTS"
+NAME="Ubuntu"
+VERSION="16.04.5 LTS (Xenial Xerus)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 16.04.5 LTS"
+VERSION_ID="16.04"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+VERSION_CODENAME=xenial
+UBUNTU_CODENAME=xenial
+
+uname:
+Linux shaik 4.15.0-51-generic #55~16.04.1-Ubuntu SMP Thu May 16 09:24:37 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+/proc/cmdline
+BOOT_IMAGE=/boot/vmlinuz-4.15.0-51-generic root=UUID=65f232df-3ce7-4e9d-8454-991d213463c2 ro quiet splash vt.handoff=7
+
+Gnu C                  gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+Clang                 
+Gnu make               4.1
+util-linux             linux 2.27.1
+mount                  linux 2.27.1 (libmount 2.27.0: selinux, assert, debug)
+modutils               22
+e2fsprogs              1.42.13
+PPP                    2.4.7
+Linux C Library        > libc.2.23
+Dynamic linker (ldd)   2.23
+Procps                 3.3.10
+Net-tools              1.60
+iproute2               iproute2-ss151103
+iputils                iputils-s20121221
+Kbd                    1.15.5
+Sh-utils               8.25
+Modules Loaded         binfmt_misc btrfs zstd_compress xor raid6_pq ufs qnx4 hfsplus hfs minix ntfs msdos jfs xfs libcrc32c cpuid snd_hda_codec_realtek snd_hda_codec_generic snd_hda_intel snd_hda_codec snd_hda_core snd_hwdep snd_pcm intel_rapl x86_pkg_temp_thermal snd_seq_midi snd_seq_midi_event intel_powerclamp coretemp kvm_intel snd_rawmidi kvm irqbypass crct10dif_pclmul crc32_pclmul ghash_clmulni_intel snd_seq cryptd intel_cstate intel_rapl_perf snd_seq_device input_leds snd_timer input_polldev serio_raw snd mac_hid soundcore lpc_ich ie31200_edac shpchp mei_me mei parport_pc ppdev lp parport autofs4 i915 i2c_algo_bit drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops psmouse drm r8169 pata_acpi mii wmi video
+
+free reports:
+              total        used        free      shared  buff/cache   available
+Mem:        3858468     2955508      332908      314028      570052      319808
+Swap:       3998716     1456292     2542424
+
+cpuinfo:
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    2
+Core(s) per socket:    2
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 58
+Model name:            Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz
+Stepping:              9
+CPU MHz:               3392.270
+CPU max MHz:           3400.0000
+CPU min MHz:           1600.0000
+BogoMIPS:              6784.45
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              3072K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt tsc_deadline_timer xsave avx f16c lahf_lm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm arat pln pts md_clear flush_l1d
+
+AppArmor enabled
+apparmor module is loaded.
+30 profiles are loaded.
+29 profiles are in enforce mode.
+   /sbin/dhclient
+   /snap/core/6964/usr/lib/snapd/snap-confine
+   /snap/core/6964/usr/lib/snapd/snap-confine//mount-namespace-capture-helper
+   /snap/core/7169/usr/lib/snapd/snap-confine
+   /snap/core/7169/usr/lib/snapd/snap-confine//mount-namespace-capture-helper
+   /usr/bin/evince
+   /usr/bin/evince-previewer
+   /usr/bin/evince-previewer//sanitized_helper
+   /usr/bin/evince-thumbnailer
+   /usr/bin/evince-thumbnailer//sanitized_helper
+   /usr/bin/evince//sanitized_helper
+   /usr/lib/NetworkManager/nm-dhcp-client.action
+   /usr/lib/NetworkManager/nm-dhcp-helper
+   /usr/lib/connman/scripts/dhclient-script
+   /usr/lib/cups/backend/cups-pdf
+   /usr/lib/lightdm/lightdm-guest-session
+   /usr/lib/lightdm/lightdm-guest-session//chromium
+   /usr/lib/snapd/snap-confine
+   /usr/lib/snapd/snap-confine//mount-namespace-capture-helper
+   /usr/sbin/cups-browsed
+   /usr/sbin/cupsd
+   /usr/sbin/cupsd//third_party
+   /usr/sbin/ippusbxd
+   /usr/sbin/tcpdump
+   snap-update-ns.core
+   snap-update-ns.powershell
+   snap.core.hook.configure
+   webbrowser-app
+   webbrowser-app//oxide_helper
+1 profiles are in complain mode.
+   snap.powershell.powershell
+5 processes have profiles defined.
+5 processes are in enforce mode.
+   /sbin/dhclient (31921) 
+   /usr/bin/evince (1534) 
+   /usr/sbin/cups-browsed (16440) 
+   /usr/sbin/cupsd (16439) 
+   /usr/sbin/cupsd (16474) 
+0 processes are in complain mode.
+0 processes are unconfined but have a profile defined.
+
+SELinux mode: unknown
+no big block device was specified on commandline.
+Tests which require a big block device are disabled.
+You can specify it with option -z
+COMMAND:    /opt/ltp/bin/ltp-pan   -e -S   -a 23336     -n 23336 -p -f /tmp/ltp-B90Ybwm1tT/alltests -l /opt/ltp/results/RUN_LTP_ON-2019_06_25-09h_33m_57s.log  -C /opt/ltp/output/LTP_RUN_ON-RUN_LTP_ON-2019_06_25-09h_33m_57s.log.failed -T /opt/ltp/output/LTP_RUN_ON-RUN_LTP_ON-2019_06_25-09h_33m_57s.log.tconf
+INFO: Restricted to spi04
+LOG File: /opt/ltp/results/RUN_LTP_ON-2019_06_25-09h_33m_57s.log
+FAILED COMMAND File: /opt/ltp/output/LTP_RUN_ON-RUN_LTP_ON-2019_06_25-09h_33m_57s.log.failed
+TCONF COMMAND File: /opt/ltp/output/LTP_RUN_ON-RUN_LTP_ON-2019_06_25-09h_33m_57s.log.tconf
+Running tests.......
+<<<test_start>>>
+tag=spi04 stime=1561455239
+cmdline="spi_app 4"
+contacts=""
+analysis=exit
+<<<test_output>>>
+open: No such file or directory
+spi         0  TINFO  :  open spi device
+fd = -1
+spi         1  TFAIL  :  spi_app.c:115: Unable to open the device!! Try again!!
+
+incrementing stop
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=1 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+INFO: ltp-pan reported some tests FAIL
+LTP Version: 20190115-266-gb11ad84
+
+       ###############################################################
+
+            Done executing testcases.
+            LTP Version:  20190115-266-gb11ad84
+       ###############################################################
+

@@ -1,0 +1,92 @@
+2019-06-25 15:39:07.041 IST: [helpers.actions] [on_interface_changed] [177] [INFO] Interface QCombobox is changed to SPI
+2019-06-25 15:39:08.073 IST: [helpers.actions] [on_device_changed] [187] [INFO] Device QCombobox is changed to ADC
+2019-06-25 15:39:11.109 IST: [helpers.common] [clear_QtableWidget] [13] [INFO] Getting the test cases from a file
+2019-06-25 15:39:11.110 IST: [helpers.common] [clear_QtableWidget] [40] [ERROR] 'Ui_MainWindow' object has no attribute 'count'
+Traceback (most recent call last):
+  File "/home/shaik/Desktop/Working_DDTT/Device_Driver_Testing_Tool_mod/helpers/common.py", line 29, in clear_QtableWidget
+    self.gui_utils.tableWidget.setRowCount(self.gui_utils.count)
+AttributeError: 'Ui_MainWindow' object has no attribute 'count'
+2019-06-25 15:39:11.125 IST: [helpers.actions] [populate_test_create_tab] [617] [INFO] Getting the test cases from a file
+2019-06-25 15:39:11.126 IST: [helpers.actions] [populate_test_create_tab] [636] [DEBUG] Populating the test cases to the QTableWidget
+2019-06-25 15:39:12.923 IST: [helpers.actions] [select_all] [326] [INFO] Selecting the All test cases
+2019-06-25 15:39:12.923 IST: [helpers.actions] [select_all] [332] [DEBUG] Checking 0 Test case
+2019-06-25 15:39:12.924 IST: [helpers.actions] [select_all] [332] [DEBUG] Checking 1 Test case
+2019-06-25 15:39:12.924 IST: [helpers.actions] [select_all] [332] [DEBUG] Checking 2 Test case
+2019-06-25 15:39:12.924 IST: [helpers.actions] [select_all] [332] [DEBUG] Checking 3 Test case
+2019-06-25 15:39:12.924 IST: [helpers.actions] [select_all] [332] [DEBUG] Checking 4 Test case
+2019-06-25 15:39:12.925 IST: [helpers.actions] [select_all] [332] [DEBUG] Checking 5 Test case
+2019-06-25 15:39:14.018 IST: [helpers.actions] [get_selected_items] [93] [INFO] Getting the selected items
+2019-06-25 15:39:14.018 IST: [helpers.actions] [get_selected_items] [97] [INFO] Getting the selected items from QTableWidget
+2019-06-25 15:39:14.018 IST: [helpers.actions] [get_selected_items] [103] [DEBUG] Checking each test cases 0
+2019-06-25 15:39:14.018 IST: [helpers.actions] [get_selected_items] [107] [DEBUG] Appending the items to the List
+2019-06-25 15:39:14.019 IST: [helpers.actions] [get_selected_items] [103] [DEBUG] Checking each test cases 1
+2019-06-25 15:39:14.019 IST: [helpers.actions] [get_selected_items] [107] [DEBUG] Appending the items to the List
+2019-06-25 15:39:14.019 IST: [helpers.actions] [get_selected_items] [103] [DEBUG] Checking each test cases 2
+2019-06-25 15:39:14.019 IST: [helpers.actions] [get_selected_items] [107] [DEBUG] Appending the items to the List
+2019-06-25 15:39:14.020 IST: [helpers.actions] [get_selected_items] [103] [DEBUG] Checking each test cases 3
+2019-06-25 15:39:14.020 IST: [helpers.actions] [get_selected_items] [107] [DEBUG] Appending the items to the List
+2019-06-25 15:39:14.020 IST: [helpers.actions] [get_selected_items] [103] [DEBUG] Checking each test cases 4
+2019-06-25 15:39:14.020 IST: [helpers.actions] [get_selected_items] [107] [DEBUG] Appending the items to the List
+2019-06-25 15:39:14.021 IST: [helpers.actions] [get_selected_items] [103] [DEBUG] Checking each test cases 5
+2019-06-25 15:39:14.021 IST: [helpers.actions] [get_selected_items] [107] [DEBUG] Appending the items to the List
+2019-06-25 15:39:14.021 IST: [helpers.actions] [get_selected_items] [109] [INFO] Storing the checked items in a global variable
+2019-06-25 15:39:14.026 IST: [helpers.actions] [get_selected_items] [155] [DEBUG] Valid Selection and Valid Test Case Name test_all_spi
+2019-06-25 15:39:15.028 IST: [helpers.actions] [on_start_button_clicked] [208] [INFO] Start Button Clicked
+2019-06-25 15:39:15.029 IST: [helpers.actions] [on_start_button_clicked] [218] [INFO] Disabling the start button once execution has started
+2019-06-25 15:39:15.029 IST: [helpers.actions] [on_start_button_clicked] [220] [INFO] Enabling stop button once execution has started
+2019-06-25 15:39:15.029 IST: [helpers.actions] [on_start_button_clicked] [223] [DEBUG] Reading the password from config file
+2019-06-25 15:39:15.029 IST: [helpers.yaml_utils] [read_yml] [28] [DEBUG] Getting the password from config.yaml file
+2019-06-25 15:39:15.044 IST: [helpers.actions] [on_start_button_clicked] [238] [DEBUG] SPI test cases are executing
+2019-06-25 15:39:15.044 IST: [helpers.actions] [load_selected_test_cases_to_tab] [434] [INFO] Getting the test cases from a file
+2019-06-25 15:39:15.044 IST: [helpers.actions] [load_selected_test_cases_to_tab] [463] [DEBUG] Populating the test cases to the QTableWidget
+2019-06-25 15:39:15.047 IST: [helpers.console_QthreadPool] [__init__] [40] [INFO] In Worker Class
+2019-06-25 15:39:15.047 IST: [helpers.console_QthreadPool] [ssh_login] [127] [INFO] In ssh_login
+2019-06-25 15:39:15.048 IST: [helpers.yaml_utils] [read_yml] [28] [DEBUG] Getting the password from config.yaml file
+2019-06-25 15:39:15.051 IST: [helpers.console_QthreadPool] [ssh_login] [133] [DEBUG] Got the IP = 192.168.1.22
+2019-06-25 15:39:15.051 IST: [helpers.yaml_utils] [read_yml] [28] [DEBUG] Getting the password from config.yaml file
+2019-06-25 15:39:15.053 IST: [helpers.console_QthreadPool] [ssh_login] [135] [DEBUG] Got the User Name = pi
+2019-06-25 15:39:15.053 IST: [helpers.yaml_utils] [read_yml] [28] [DEBUG] Getting the password from config.yaml file
+2019-06-25 15:39:15.054 IST: [helpers.console_QthreadPool] [ssh_login] [138] [DEBUG] Got the SSH object <paramiko.client.SSHClient object at 0x7fc468358e80>
+2019-06-25 15:39:15.358 IST: [helpers.console_QthreadPool] [ssh_login] [143] [INFO] Pingiing to 192.168.1.22
+2019-06-25 15:39:15.358 IST: [helpers.ping] [ping_host] [14] [DEBUG] In method ping_host
+2019-06-25 15:39:15.368 IST: [helpers.ping] [ping_host] [18] [DEBUG] Result of ping = <subprocess.Popen object at 0x7fc468358f28>
+2019-06-25 15:39:18.555 IST: [helpers.console_QthreadPool] [ssh_login] [155] [DEBUG] connected to host 192.168.1.22 with user name pi
+2019-06-25 15:39:18.560 IST: [helpers.output_write] [create_dir_structure] [126] [INFO] In create_dir_structure
+2019-06-25 15:39:18.561 IST: [helpers.output_write] [change_to_script_directory] [112] [INFO] In change_to_script_directory
+2019-06-25 15:39:18.561 IST: [helpers.console_QthreadPool] [run] [53] [INFO] In Run method
+2019-06-25 15:39:18.561 IST: [helpers.output_write] [change_to_script_directory] [115] [DEBUG] after getting the path of the script /home/shaik/Desktop/Working_DDTT/Device_Driver_Testing_Tool_mod/helpers
+2019-06-25 15:39:18.562 IST: [helpers.console_QthreadPool] [run] [55] [INFO] Executing the selected Test cases
+2019-06-25 15:39:18.562 IST: [helpers.output_write] [change_to_script_directory] [116] [DEBUG] Changing the dir to /home/shaik/Desktop/Working_DDTT/Device_Driver_Testing_Tool_mod/helpers
+2019-06-25 15:39:18.562 IST: [helpers.console_QthreadPool] [run] [64] [INFO] ########################################
+2019-06-25 15:39:18.563 IST: [helpers.output_write] [create_dir_structure] [134] [DEBUG] Path to be Created = /home/shaik/Desktop/Working_DDTT/Device_Driver_Testing_Tool_mod/results/test_all_spi
+2019-06-25 15:39:18.563 IST: [helpers.console_QthreadPool] [run] [65] [DEBUG] Trying for 1 time:
+2019-06-25 15:39:18.563 IST: [helpers.console_QthreadPool] [run] [66] [INFO] ########################################
+2019-06-25 15:39:18.564 IST: [helpers.console_QthreadPool] [run] [68] [DEBUG] global_constants.STOP_ENABLED
+2019-06-25 15:39:18.564 IST: [helpers.console_QthreadPool] [run] [77] [DEBUG] Executing the test case Test001
+2019-06-25 15:39:18.564 IST: [helpers.console_QthreadPool] [ssh_exe_cmd] [174] [DEBUG] inside ssh_exe_cmd
+2019-06-25 15:39:18.565 IST: [helpers.console_QthreadPool] [ssh_exe_cmd] [175] [DEBUG] ret_val ssh_login function <paramiko.client.SSHClient object at 0x7fc468358e80>
+2019-06-25 15:39:18.565 IST: [helpers.console_QthreadPool] [ssh_exe_cmd] [185] [DEBUG] Command to Execute ./runltp -s spi01 -p -l RUN_LTP_ON-2019_06_25-10h_09m_18s.log
+2019-06-25 15:39:18.565 IST: [helpers.yaml_utils] [read_yml] [28] [DEBUG] Getting the password from config.yaml file
+2019-06-25 15:39:18.565 IST: [helpers.output_write] [create_dir_structure] [141] [DEBUG] Path = /home/shaik/Desktop/Working_DDTT/Device_Driver_Testing_Tool_mod/results/test_all_spi
+2019-06-25 15:39:18.568 IST: [helpers.console_QthreadPool] [ssh_exe_cmd] [191] [DEBUG] ssh cmd is cd /opt/ltp/;echo 'neha123' | sudo -S ./runltp -s spi01 -p -l RUN_LTP_ON-2019_06_25-10h_09m_18s.log
+2019-06-25 15:39:18.569 IST: [helpers.parser] [get_count] [25] [INFO] In get_count
+2019-06-25 15:39:18.570 IST: [helpers.parser] [get_count] [37] [DEBUG] Test Passed = 0 and Test Failed = 0
+2019-06-25 15:39:18.757 IST: [helpers.console_QthreadPool] [ssh_exe_cmd] [195] [DEBUG] channel = <paramiko.Channel 0 (open) window=0 -> <paramiko.Transport at 0x68358f28 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>
+2019-06-25 15:39:18.758 IST: [helpers.console_QthreadPool] [ssh_exe_cmd] [197] [INFO] Executing the command
+2019-06-25 15:39:18.850 IST: [helpers.console_QthreadPool] [ssh_exe_cmd] [207] [INFO] Going into the while loop
+2019-06-25 15:39:54.555 IST: [helpers.actions] [clear_checked_items] [275] [INFO] Clearing the Selected items
+2019-06-25 15:39:54.555 IST: [helpers.actions] [clear_checked_items] [280] [DEBUG] Checking whether the item is selected or not
+2019-06-25 15:39:54.556 IST: [helpers.actions] [clear_checked_items] [284] [DEBUG] un checking the checked items
+2019-06-25 15:39:54.556 IST: [helpers.actions] [clear_checked_items] [280] [DEBUG] Checking whether the item is selected or not
+2019-06-25 15:39:54.556 IST: [helpers.actions] [clear_checked_items] [284] [DEBUG] un checking the checked items
+2019-06-25 15:39:54.556 IST: [helpers.actions] [clear_checked_items] [280] [DEBUG] Checking whether the item is selected or not
+2019-06-25 15:39:54.557 IST: [helpers.actions] [clear_checked_items] [284] [DEBUG] un checking the checked items
+2019-06-25 15:39:54.557 IST: [helpers.actions] [clear_checked_items] [280] [DEBUG] Checking whether the item is selected or not
+2019-06-25 15:39:54.557 IST: [helpers.actions] [clear_checked_items] [284] [DEBUG] un checking the checked items
+2019-06-25 15:39:54.557 IST: [helpers.actions] [clear_checked_items] [280] [DEBUG] Checking whether the item is selected or not
+2019-06-25 15:39:54.557 IST: [helpers.actions] [clear_checked_items] [284] [DEBUG] un checking the checked items
+2019-06-25 15:39:54.558 IST: [helpers.actions] [clear_checked_items] [280] [DEBUG] Checking whether the item is selected or not
+2019-06-25 15:39:54.558 IST: [helpers.actions] [clear_checked_items] [284] [DEBUG] un checking the checked items
+2019-06-25 15:39:54.558 IST: [helpers.actions] [clear_checked_items] [289] [DEBUG] unchecking select all check box
+2019-06-25 15:39:54.558 IST: [helpers.actions] [clear_checked_items] [293] [DEBUG] Clearing the test Execution name in QLineEdit
+2019-06-25 15:39:54.559 IST: [helpers.actions] [clear_checked_items] [296] [DEBUG] Clearing the output in the terminal

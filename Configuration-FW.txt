@@ -1,0 +1,7 @@
+paramiko==2.4.1
+pyaml==17.12.1
+PyYAML==3.12
+ruamel.yaml==0.10.23
+pysqlite3==0.2.0
+yamlordereddictloader==0.4.0
+pony==0.7.0
