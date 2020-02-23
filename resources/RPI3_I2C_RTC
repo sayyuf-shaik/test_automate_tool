@@ -1,0 +1,6 @@
+Test001,Test I2C_RTC_PROBE function,i2c_app
+Test002,Test I2C_OPEN,i2c_app
+Test003,Test I2C_READ_TIME function,i2c_app
+Test004,Test I2C_SET_TIME function,i2c_app
+Test005,Test I2C_RELEASE function,i2c_app
+Test006,Test I2C_REMOVE function,i2c_app

@@ -1,0 +1,29 @@
+
+TEXT_BOARD = ''
+TEXT_INTERFACE = ''
+TEXT_DEVICE = ''
+TEST_CASE_LIST = []
+TEST_CASE_LIST_NAMES = []
+TEST_EXECUTION_NAME = ''
+STOP_ENABLED = 0
+COMMAND_TO_EXECUTE = ''
+TEST_COMPLETED_COUNT = 0
+
+# values of test passed, failed, in progress
+
+TEST_PASSED_COUNT = 0
+TEST_IN_PROGRESS_COUNT = 0
+TEST_FAILED_COUNT = 0
+TEST_COUNT = 0
+TEST_PASSED_LIST = []
+TEST_FAILED_LIST = []
+# List of selected test cases
+
+TEST_CASES_SELECTED = []
+
+# To Store the fetched values
+TABLE = []
+
+# Flags
+FROM_DB = False
+TEST_EXECUTION_NAME_DB = ''

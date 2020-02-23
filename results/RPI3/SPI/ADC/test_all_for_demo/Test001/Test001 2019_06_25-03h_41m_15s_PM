@@ -1,0 +1,132 @@
+INFO: creating /opt/ltp/results directory
+INFO: no command files were provided. Executing following runtest scenario files:
+syscalls fs fs_perms_simple fsx dio io mm ipc sched math nptl pty containers fs_bind controllers filecaps cap_bounds fcntl-locktests connectors timers power_management_tests hugetlb commands hyperthreading kernel_misc fs_ext4 can cpuhotplug net.ipv6_lib input cve 
+
+Checking for required user/group ids
+
+'nobody' user id and group found.
+'bin' user id and group found.
+'daemon' user id and group found.
+Users group found.
+Sys group found.
+Required users/groups exist.
+If some fields are empty or look unusual you may have an old version.
+Compare to the current minimal requirements in Documentation/Changes.
+
+/etc/os-release
+PRETTY_NAME="Raspbian GNU/Linux 9 (stretch)"
+NAME="Raspbian GNU/Linux"
+VERSION_ID="9"
+VERSION="9 (stretch)"
+ID=raspbian
+ID_LIKE=debian
+HOME_URL="http://www.raspbian.org/"
+SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
+BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
+
+uname:
+Linux raspberrypi 4.14.74-v7+ #1 SMP Sat Oct 13 11:49:11 UTC 2018 armv7l GNU/Linux
+
+/proc/cmdline
+8250.nr_uarts=0 bcm2708_fb.fbwidth=1366 bcm2708_fb.fbheight=768 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:3B:71:F7 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=PARTUUID=18de90c5-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
+
+Gnu C                  gcc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516
+Clang                 
+Gnu make               4.1
+util-linux             linux 2.29.2
+mount                  linux 2.29.2 (libmount 2.29.2: selinux, btrfs, assert, debug)
+modutils               23
+e2fsprogs              1.43.4
+Linux C Library        > libc.2.24
+Dynamic linker (ldd)   2.24
+Procps                 3.3.12
+Net-tools              2.10-alpha
+iproute2               iproute2-ss161212
+iputils                iputils-s20161105
+Kbd                    2.0.3
+Sh-utils               8.26
+Modules Loaded         evdev fuse rfcomm bnep hci_uart btbcm serdev bluetooth ecdh_generic spidev brcmfmac brcmutil cfg80211 rfkill snd_bcm2835 snd_pcm snd_timer snd i2c_bcm2835 spi_bcm2835 fixed uio_pdrv_genirq uio i2c_dev ip_tables x_tables ipv6
+
+free reports:
+              total        used        free      shared  buff/cache   available
+Mem:         896680      188804      188416       16040      519460      638996
+Swap:        102396           0      102396
+
+cpuinfo:
+Architecture:          armv7l
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    4
+Socket(s):             1
+Model:                 4
+Model name:            ARMv7 Processor rev 4 (v7l)
+CPU max MHz:           1200.0000
+CPU min MHz:           600.0000
+BogoMIPS:              76.80
+Flags:                 half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
+
+AppArmor disabled
+
+SELinux mode: unknown
+no big block device was specified on commandline.
+Tests which require a big block device are disabled.
+You can specify it with option -z
+COMMAND:    /opt/ltp/bin/ltp-pan   -e -S   -a 1438     -n 1438 -p -f /tmp/ltp-1kLajYakgw/alltests -l /opt/ltp/results/RUN_LTP_ON-2019_06_25-10h_10m_34s.log  -C /opt/ltp/output/LTP_RUN_ON-RUN_LTP_ON-2019_06_25-10h_10m_34s.log.failed -T /opt/ltp/output/LTP_RUN_ON-RUN_LTP_ON-2019_06_25-10h_10m_34s.log.tconf
+INFO: Restricted to spi01
+LOG File: /opt/ltp/results/RUN_LTP_ON-2019_06_25-10h_10m_34s.log
+FAILED COMMAND File: /opt/ltp/output/LTP_RUN_ON-RUN_LTP_ON-2019_06_25-10h_10m_34s.log.failed
+TCONF COMMAND File: /opt/ltp/output/LTP_RUN_ON-RUN_LTP_ON-2019_06_25-10h_10m_34s.log.tconf
+Running tests.......
+<<<test_start>>>
+tag=spi01 stime=1553786544
+cmdline="spi_app 1"
+contacts=""
+analysis=exit
+<<<test_output>>>
+spi         0  TINFO  :  In tst_module_load func...
+spi         0  TINFO  :  In tst_module_exists function...
+spi         0  TINFO  :  insmod spi_driver.ko (null)
+spi         0  TINFO  :  calling tst_run_cmd function
+spi         0  TINFO  :  In tst_run_cmd function... stdout_path : (null) stderr_path : (null)
+spi         0  TINFO  :  In tst_run_cmd_fds function...
+spi         0  TINFO  :  Calling execvp function...argv[0] : insmod
+spi         0  TINFO  :  mod_path : spi_driver.ko
+spi         0  TINFO  :  Module inserted... module_loaded : 1
+spi         0  TINFO  :  open spi device
+spi         0  TINFO  :  device open !!
+
+spi         0  TINFO  :  In test_run function...
+spi         0  TINFO  :  In run_spi_testcases function...
+spi         0  TINFO  :  value of res=0
+spi         1  TPASS  :  Test-case '1'	Test PROBE function
+
+spi         0  TINFO  :  coming out of run_spi_testcases function...
+spi         0  TINFO  :  Back to main function...
+spi         0  TINFO  :  Back from test_run function
+spi         0  TINFO  :  Coming outoff else of open()...
+spi         0  TINFO  :  Going to call cleanup()...
+spi         0  TINFO  :  cleanup!! Started
+spi         0  TINFO  :  Calling tst_module_unload function...
+spi         0  TINFO  :  In tst_module_unload func...
+spi         0  TINFO  :  In tst_run_cmd function... stdout_path : /dev/null stderr_path : /dev/null
+spi         0  TINFO  :  In tst_run_cmd_fds function...
+spi         0  TINFO  :  Calling execvp function...argv[0] : rmmod
+spi         0  TINFO  :  cleanup!! Success
+spi         0  TINFO  :  Back from cleanup to main...
+incrementing stop
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=0
+<<<test_end>>>
+INFO: ltp-pan reported all tests PASS
+LTP Version: 20190115-237-gf3cfbcb4b
+
+       ###############################################################
+
+            Done executing testcases.
+            LTP Version:  20190115-237-gf3cfbcb4b
+       ###############################################################
+

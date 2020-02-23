@@ -1,0 +1,3 @@
+Test001,Test MOSI PIN's working,bitbSPI_app
+Test002,Test CHIP SELECT PIN's working,bitbSPI_app
+Test003,Test CLOCK PIN's working,bitbSPI_app

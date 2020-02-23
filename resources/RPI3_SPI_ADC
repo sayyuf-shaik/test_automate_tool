@@ -1,0 +1,5 @@
+Test001,Test ADC_SPI_PROBE function,spi_app
+Test002,Test SPI_OPEN function,spi_app
+Test003,Test SPI_READ function,spi_app
+Test004,Test SPI_RELEASE function,spi_app
+Test005,Test ADC_SPI_REMOVE function,spi_app
