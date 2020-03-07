@@ -1,0 +1,7 @@
+# Ignoring idea folder
+.idea/
+# Ignoring pychace
+# Igonring results
+/results/
+# Ignoring framework logs
+/framework_logs/
