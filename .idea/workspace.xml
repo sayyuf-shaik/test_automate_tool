@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d88315e9-1cd2-4cab-aac0-6b9e0b5fda88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Installer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Installer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apt_package_installer.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework_logs/Script_logs  2019_06_25-03h_01m_16s_PM.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework_logs/Script_logs  2019_06_25-03h_39m_03s_PM.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework_logs/Script_logs  2019_06_25-03h_40m_01s_PM.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework_logs/Script_logs  2019_06_25-03h_45m_27s_PM.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework_logs/Script_logs  2019_06_25-05h_05m_53s_PM.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework_logs/Script_logs  2019_07_14-09h_38m_11s_PM.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework_logs/Script_logs  2019_07_14-09h_39m_32s_PM.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pip_package_installer.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test001/Test001 2019_05_23-07h_12m_06s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test001/Test001 2019_05_28-10h_19m_43s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test002/Test002 2019_05_23-07h_12m_53s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test002/Test002 2019_05_28-10h_20m_22s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test003/Test003 2019_05_23-07h_13m_46s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test003/Test003 2019_05_28-10h_21m_11s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test004/Test004 2019_05_23-07h_14m_30s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test004/Test004 2019_05_28-10h_21m_53s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test005/Test005 2019_05_23-07h_15m_11s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test005/Test005 2019_05_28-10h_22m_31s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test006/Test006 2019_05_23-07h_16m_21s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_all_i2c/Test006/Test006 2019_05_28-10h_23m_07s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_i2c/Test001/Test001 2019_05_21-10h_28m_59s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_i2c_all/Test001/Test001 2019_05_21-10h_30m_48s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_i2c_all/Test001/Test001 2019_05_21-10h_35m_11s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_i2c_all/Test002/Test002 2019_05_21-10h_36m_12s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_i2c_all/Test003/Test003 2019_05_21-10h_37m_08s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_i2c_all/Test004/Test004 2019_05_21-10h_38m_06s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_i2c_all/Test005/Test005 2019_05_21-10h_39m_18s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/I2C/RTC/test_i2c_all/Test006/Test006 2019_05_21-10h_40m_11s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/Test_all_in_18.04/Test001/Test001 2019_07_14-09h_40m_14s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/Test_all_in_18.04/Test002/Test002 2019_07_14-09h_40m_19s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/Test_all_in_18.04/Test003/Test003 2019_07_14-09h_40m_24s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/Test_all_in_18.04/Test004/Test004 2019_07_14-09h_40m_27s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/Test_all_in_18.04/Test005/Test005 2019_07_14-09h_40m_31s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test-all/Test001/Test001 2019_05_21-03h_43m_17s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test-all/Test002/Test002 2019_05_21-03h_44m_03s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_01/Test001/Test001 2019_05_20-07h_41m_34s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_01/Test001/Test001 2019_05_22-06h_14m_55s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_01_03/Test001/Test001 2019_05_29-02h_17m_53s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_01_03/Test003/Test003 2019_05_29-02h_18m_32s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_01_03_05/Test001/Test001 2019_05_22-06h_44m_55s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_03_05/Test003/Test003 2019_05_22-06h_49m_51s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_03_05/Test005/Test005 2019_05_22-06h_49m_52s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_04/Test004/Test004 2019_05_22-06h_21m_04s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_05/Test005/Test005 2019_05_22-06h_24m_40s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test001/Test001 2019_05_21-05h_20m_57s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test001/Test001 2019_05_21-05h_24m_02s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test001/Test001 2019_05_21-07h_40m_25s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test001/Test001 2019_05_22-01h_00m_25s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test001/Test001 2019_05_22-02h_35m_28s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test001/Test001 2019_05_22-02h_36m_26s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test001/Test001 2019_05_28-12h_54m_03s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test002/Test002 2019_05_21-05h_20m_58s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test002/Test002 2019_05_21-07h_41m_00s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test002/Test002 2019_05_22-01h_01m_04s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test002/Test002 2019_05_22-02h_33m_46s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test002/Test002 2019_05_22-02h_35m_28s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test002/Test002 2019_05_22-02h_37m_01s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test002/Test002 2019_05_28-12h_54m_09s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test003/Test003 2019_05_21-05h_20m_58s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test003/Test003 2019_05_21-07h_41m_44s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test003/Test003 2019_05_22-01h_01m_47s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test003/Test003 2019_05_22-02h_33m_47s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test003/Test003 2019_05_22-02h_35m_28s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test003/Test003 2019_05_22-02h_37m_32s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test003/Test003 2019_05_28-12h_54m_13s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test004/Test004 2019_05_21-05h_19m_03s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test004/Test004 2019_05_21-05h_20m_58s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test004/Test004 2019_05_21-07h_42m_25s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test004/Test004 2019_05_22-01h_02m_28s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test004/Test004 2019_05_22-02h_33m_47s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test004/Test004 2019_05_22-02h_35m_28s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test004/Test004 2019_05_22-02h_38m_08s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test004/Test004 2019_05_28-12h_54m_15s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test005/Test005 2019_05_21-05h_19m_03s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test005/Test005 2019_05_21-05h_20m_58s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test005/Test005 2019_05_21-10h_42m_28s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test005/Test005 2019_05_22-01h_03m_14s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test005/Test005 2019_05_22-02h_33m_47s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test005/Test005 2019_05_22-02h_35m_28s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test005/Test005 2019_05_22-02h_38m_45s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all/Test005/Test005 2019_05_28-12h_54m_17s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_2/Test001/Test001 2019_05_22-06h_08m_28s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_25/Test001/Test001 2019_05_29-02h_14m_14s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_25/Test002/Test002 2019_05_29-02h_12m_53s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_25/Test002/Test002 2019_05_29-02h_14m_42s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_25/Test003/Test003 2019_05_29-02h_12m_53s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_25/Test003/Test003 2019_05_29-02h_15m_20s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_25/Test004/Test004 2019_05_29-02h_12m_53s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_25/Test004/Test004 2019_05_29-02h_16m_06s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_25/Test005/Test005 2019_05_29-02h_12m_53s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_25/Test005/Test005 2019_05_29-02h_16m_40s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_again/Test001/Test001 2019_05_22-03h_06m_00s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_for_demo/Test001/Test001 2019_06_25-03h_41m_15s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_for_demo/Test002/Test002 2019_06_25-03h_41m_53s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_for_demo/Test003/Test003 2019_06_25-03h_42m_34s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_for_demo/Test004/Test004 2019_06_25-03h_43m_19s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_for_demo/Test005/Test005 2019_06_25-03h_44m_01s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_spi/Test001/Test001 2019_05_21-07h_37m_49s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_spi/Test001/Test001 2019_05_28-10h_24m_32s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_spi/Test002/Test002 2019_05_28-10h_25m_23s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_spi/Test003/Test003 2019_05_28-10h_26m_00s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_spi/Test004/Test004 2019_05_28-10h_26m_37s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/test_all_spi/Test005/Test005 2019_05_28-10h_27m_12s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/tset_all/Test001/Test001 2019_05_21-05h_21m_18s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/tset_all/Test002/Test002 2019_05_21-05h_21m_19s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/tset_all/Test003/Test003 2019_05_21-05h_21m_19s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/tset_all/Test004/Test004 2019_05_21-05h_21m_19s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/SPI/ADC/tset_all/Test005/Test005 2019_05_21-05h_21m_19s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_all_bitb/Test001/Test001 2019_05_21-12h_43m_06s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_all_bitb/Test002/Test002 2019_05_21-12h_44m_04s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_all_bitb/Test003/Test003 2019_05_21-12h_45m_06s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_bitbSPI/Test001/Test001 2019_05_23-07h_09m_08s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_bitbSPI/Test002/Test002 2019_05_23-07h_10m_00s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_bitbSPI/Test003/Test003 2019_05_23-07h_10m_39s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_i2c/Test001/Test001 2019_05_23-10h_09m_32s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_i2c/Test002/Test002 2019_05_23-10h_10m_06s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_i2c/Test003/Test003 2019_05_23-10h_10m_41s_AM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_i2c_for_db/Test001/Test001 2019_05_23-06h_56m_29s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_i2c_for_db/Test002/Test002 2019_05_23-06h_57m_11s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/ADC/test_i2c_for_db/Test003/Test003 2019_05_23-06h_57m_50s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/RTC/test_01/Test001/Test001 2019_05_21-03h_17m_34s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/RTC/test_all/Test001/Test001 2019_05_21-03h_19m_05s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/RPI3/bitbSPI/RTC/test_all/Test005/Test005 2019_05_21-03h_20m_10s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test001/Test001 2019_06_25-03h_01m_56s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test001/Test001 2019_06_25-04h_39m_20s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test001/Test001 2019_06_25-05h_07m_52s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test002/Test002 2019_06_25-03h_02m_00s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test002/Test002 2019_06_25-04h_39m_57s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test002/Test002 2019_06_25-05h_08m_42s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test003/Test003 2019_06_25-03h_02m_04s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test003/Test003 2019_06_25-04h_40m_43s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test003/Test003 2019_06_25-05h_09m_17s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test004/Test004 2019_06_25-03h_02m_05s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test004/Test004 2019_06_25-04h_41m_15s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test004/Test004 2019_06_25-05h_09m_54s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test005/Test005 2019_06_25-03h_02m_08s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test005/Test005 2019_06_25-04h_41m_58s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all/Test005/Test005 2019_06_25-05h_10m_35s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all_25/Test001/Test001 2019_06_25-03h_54m_33s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all_25/Test002/Test002 2019_06_25-03h_55m_18s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all_25/Test003/Test003 2019_06_25-03h_56m_07s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all_25/Test004/Test004 2019_06_25-03h_56m_53s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all_25/Test005/Test005 2019_06_25-03h_57m_31s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_all_i2c/Test001/Test001 2019_06_25-03h_46m_53s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_demo/Test002/Test002 2019_06_25-03h_03m_58s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_demo/Test004/Test004 2019_06_25-03h_04m_00s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_stop_at_02/Test001/Test001 2019_06_13-05h_23m_55s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_stop_at_02/Test002/Test002 2019_06_13-05h_24m_02s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_stop_at_02/Test003/Test003 2019_06_13-05h_24m_04s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_stop_at_02/Test004/Test004 2019_06_13-05h_24m_08s_PM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/test_stop_at_02/Test005/Test005 2019_06_13-05h_24m_12s_PM" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Installer.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="99" column="71" lean-forward="true" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>device_driver_testing_tool</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Installer.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test_automate_tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_automate_tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d88315e9-1cd2-4cab-aac0-6b9e0b5fda88" name="Default Changelist" comment="" />
+      <created>1583577647472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583577647472</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Installer.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="99" column="71" lean-forward="true" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

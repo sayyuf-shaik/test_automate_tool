@@ -1,13 +1,15 @@
 #!/bin/bash
 #
 # INSTALL - Package installation and build setup script for Device Driver Testing Tool
+# Author : Sayyuf Shaik
+# Email Id: sayyufshaik@gmail.com
 
 cd "$( dirname "${BASH_SOURCE[0]}" )"
 current_working_dir=$(pwd)
 project_name="/Device_Driver_Testing_Tool_mod"
-thinclient_automation_path=$current_working_dir$project_name
+device_driver_testing_tool=$current_working_dir$project_name
 
-echo "thinclient_automation_path: $thinclient_automation_path"
+echo "device_driver_testing_tool: $device_driver_testing_tool"
 current_platform="$(uname -s)"
 
 
@@ -88,14 +90,14 @@ _check_bash()
 	exit 1
     fi
     echo "Using bash file for environment configuration: $use_bash_file"
-    if grep -q "$thinclient_automation_path/lib" "$use_bash_file" ; then
+    if grep -q "$device_driver_testing_tool/lib" "$use_bash_file" ; then
 	echo "Found required environment variables"
     else
 	echo "Adding required environment variables"
 	echo "" >> $use_bash_file
 	echo "# # # Adding Device Driver Testing Tool to python path # # #" >> $use_bash_file
-	echo "export PYTHONPATH=$thinclient_automation_path/lib:\$PYTHONPATH" >> $use_bash_file
-	echo "export TC_TEST=$thinclient_automation_path" >> $use_bash_file
+	echo "export PYTHONPATH=$device_driver_testing_tool:\$PYTHONPATH" >> $use_bash_file
+	echo "export TC_TEST=$device_driver_testing_tool" >> $use_bash_file
 	source $use_bash_file
 	echo "If this is your first time, please exit the shell or source your bash configuration file before continuing."
     fi
